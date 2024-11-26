@@ -1,0 +1,22 @@
+{{ $img := "images/littlelink.svg" }}
+{{ with .Site.Params.littlelink.header }}
+  {{ $img = . }}
+{{ end }}
+{{ with .Params.littlelink.header }}
+  {{ $img = . }}
+{{ end }}
+
+<div class="container">
+  <div class="row">
+      <div class="column" style="margin-top: 10%">
+      <img
+        src="{{ $img }}"
+        class="avatar"
+        srcset="{{ $img }} 2x"
+        alt=""
+      />
+      <h1 role="heading">{{ .Title }}</h1>
+      <p>{{ .Summary }}</p>
+      {{ partial "littlelink-list.html" . }}
+  </div>
+</div>

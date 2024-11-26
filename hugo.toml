@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = 'Hugo LittleLink'
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
+
+[params.littlelink]
+  themeStyle = "dark"
+  header = "images/littlelink.png"
+  [[params.littlelink.links]]
+    type = "github"
+    title = "Theme's GitHub"
+    alt = "Theme's Github Link"
+    link = "https://github.com/spslater/hugo-littlelink"
+  [[params.littlelink.links]]
+    type = "generic-cloud"
+    title = "Seth Cottle's LittleLink"
+    alt = "Seth Cottle's LittleLink"
+    link = "https://littlelink.io/"

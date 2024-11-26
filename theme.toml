@@ -1,0 +1,14 @@
+name = 'Hugo LittleLink'
+license = 'MIT'
+licenselink = 'https://github.com/spslater/hugo-littlelink/LICENSE'
+description = 'Partial theme implementation of Seth Cottle's "LittleLink" and "LitteLink Extended" LinkTree alternative.'
+
+homepage = 'https://github.com/spslater/hugo-littlelink'
+demosite = 'https://spslater.github.io/hugo-littlelink'
+
+tags = ['minimal', 'dark', 'light', 'partial', 'contact', 'personal']
+features = ['single-column', 'theme-toggle', 'minified-assets', 'fast', 'vanilla-js', 'simple']
+
+[author]
+  name = 'Sean Slater'
+  homepage = 'https://github.com/spslater'

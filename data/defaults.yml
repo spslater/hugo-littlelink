@@ -1,0 +1,487 @@
+500px:
+  icon: icons-extended/500px
+  class: 500px
+sony-alpha:
+  icon: icons-extended/sony-alpha
+  class: alphauniverse
+amazon-music:
+  icon: icons/amazon-music
+  class: amazon-music
+amazon:
+  icon: icons/amazon
+  class: amazon
+anilist:
+  icon: icons-extended/anilist
+  class: anilist
+apple-music-alt:
+  icon: icons/apple-music-alt
+  class: apple-music-alt
+apple-music:
+  icon: icons/apple-music
+  class: apple-music
+apple-podcasts-alt:
+  icon: icons/apple-podcasts-alt
+  class: apple-podcasts-alt
+apple-podcasts:
+  icon: icons/apple-podcasts
+  class: apple-podcasts
+apple:
+  icon: icons/apple
+  class: appstore
+audiomack:
+  icon: icons-extended/audiomack
+  class: audiomack
+bandcamp:
+  icon: icons/bandcamp
+  class: bandcamp
+bandsintown:
+  icon: icons-extended/bandsintown
+  class: bandsintown
+behance:
+  icon: icons/behance
+  class: behance
+bereal:
+  icon: icons-extended/bereal
+  class: bereal
+bigcartel:
+  icon: icons-extended/bigcartel
+  class: bigcartel
+bluesky-alt:
+  icon: icons/bluesky-alt
+  class: bluesky-alt
+bluesky:
+  icon: icons/bluesky
+  class: bluesky
+bonfire:
+  icon: icons-extended/bonfire
+  class: bonfire
+cal:
+  icon: icons/cal
+  class: cal
+calendly:
+  icon: icons/calendly
+  class: calendly
+cameo:
+  icon: icons-extended/cameo
+  class: cameo
+cash-app-dollar:
+  icon: icons/cash-app-dollar
+  class: cash-app
+clubhouse:
+  icon: icons-extended/clubhouse
+  class: clubhouse
+codepen:
+  icon: icons-extended/codepen
+  class: codepen
+buy-me-a-coffee:
+  icon: icons/buy-me-a-coffee
+  class: coffee
+deezer:
+  icon: icons-extended/deezer
+  class: deezer
+generic-blog:
+  icon: icons/generic-blog
+  class: default
+generic-calendar:
+  icon: icons/generic-calendar
+  class: default
+generic-cloud:
+  icon: icons/generic-cloud
+  class: default
+generic-code:
+  icon: icons/generic-code
+  class: default
+generic-computer:
+  icon: icons/generic-computer
+  class: default
+generic-email-alt:
+  icon: icons/generic-email-alt
+  class: default
+generic-email:
+  icon: icons/generic-email
+  class: default
+generic-homepage:
+  icon: icons/generic-homepage
+  class: default
+generic-map:
+  icon: icons/generic-map
+  class: default
+generic-phone:
+  icon: icons/generic-phone
+  class: default
+generic-review:
+  icon: icons/generic-review
+  class: default
+generic-rss:
+  icon: icons/generic-rss
+  class: default
+generic-shopping-bag:
+  icon: icons/generic-shopping-bag
+  class: default
+generic-shopping-tag:
+  icon: icons/generic-shopping-tag
+  class: default
+generic-sms:
+  icon: icons/generic-sms
+  class: default
+generic-website:
+  icon: icons/generic-website
+  class: default
+littlelink:
+  icon: icons/littlelink
+  class: default
+dev-to:
+  icon: icons/dev-to
+  class: dev-to
+devpost:
+  icon: icons-extended/devpost
+  class: devpost
+discogs-alt:
+  icon: icons/discogs-alt
+  class: discogs-alt
+discogs:
+  icon: icons/discogs
+  class: discogs
+discord:
+  icon: icons/discord
+  class: discord
+distiller:
+  icon: icons-extended/distiller
+  class: dist
+dribbble:
+  icon: icons/dribbble
+  class: dribbble
+etsy:
+  icon: icons/etsy
+  class: etsy
+facebook:
+  icon: icons/facebook
+  class: faceb
+figma:
+  icon: icons/figma
+  class: figma
+filmweb:
+  icon: icons-extended/filmweb
+  class: filmweb
+fiverr:
+  icon: icons/fiverr
+  class: fiverr
+flickr:
+  icon: icons/flickr
+  class: flickr
+github:
+  icon: icons/github
+  class: github
+gitlab:
+  icon: icons/gitlab
+  class: gitlab
+gofundme:
+  icon: icons/gofundme
+  class: gofundme
+gog:
+  icon: icons-extended/gog
+  class: gog
+goodreads:
+  icon: icons/goodreads
+  class: goodreads
+google-drive:
+  icon: icons/google-drive
+  class: google-black
+google-scholar:
+  icon: icons/google-scholar
+  class: google-scholar
+guilded:
+  icon: icons-extended/guilded
+  class: guilded
+gumroad:
+  icon: icons-extended/gumroad
+  class: gumroad
+hackerearth:
+  icon: icons-extended/hackerearth
+  class: hackerearth
+hackerrank:
+  icon: icons-extended/hackerrank
+  class: hackerrank
+hashnode:
+  icon: icons/hashnode
+  class: hashnode
+instagram:
+  icon: icons/instagram
+  class: instagram
+itchio:
+  icon: icons-extended/itchio
+  class: itchio
+kick-alt:
+  icon: icons/kick-alt
+  class: kick-alt
+kick:
+  icon: icons/kick
+  class: kick
+kickstarter:
+  icon: icons/kickstarter
+  class: kickstarter
+kit:
+  icon: icons/kit
+  class: kit
+ko-fi:
+  icon: icons/ko-fi
+  class: ko-fi
+last-fm:
+  icon: icons/last-fm
+  class: last-fm
+layers:
+  icon: icons-extended/layers
+  class: layers
+leetcode:
+  icon: icons-extended/leetcode
+  class: leetcode
+lemmy:
+  icon: icons-extended/lemmy
+  class: lemmy
+letterboxd:
+  icon: icons/letterboxd
+  class: letterboxd
+line:
+  icon: icons/line
+  class: line
+linkedin:
+  icon: icons/linkedin
+  class: linked
+listenbrainz:
+  icon: icons-extended/listenbrainz
+  class: listenbrainz
+mailchimp:
+  icon: icons/mailchimp
+  class: mailchimp
+mastodon:
+  icon: icons/mastodon
+  class: mastodon
+matrix:
+  icon: icons-extended/matrix
+  class: matrix
+medium:
+  icon: icons/medium
+  class: medium
+messenger:
+  icon: icons/messenger
+  class: messenger
+microblog:
+  icon: icons-extended/microblog
+  class: microblog
+microsoft:
+  icon: icons/microsoft
+  class: microsoft
+mixcloud:
+  icon: icons-extended/mixcloud
+  class: mixcloud
+myanimelist:
+  icon: icons-extended/myanimelist
+  class: myanimelist
+ngl:
+  icon: icons/ngl
+  class: ngl
+nostr_logo_wht:
+  icon: icons-extended/nostr_logo_wht
+  class: nostr
+notion:
+  icon: icons/notion
+  class: notion
+onlyfans:
+  icon: icons/onlyfans
+  class: onlyfans
+opensea:
+  icon: icons-extended/opensea
+  class: opensea
+opgg:
+  icon: icons-extended/opgg
+  class: opgg
+orcid-id:
+  icon: icons-extended/orcid-id
+  class: orcid-id
+osm:
+  icon: icons-extended/osm
+  class: osm
+osu:
+  icon: icons-extended/osu
+  class: osu
+partiful:
+  icon: icons-extended/partiful
+  class: partiful
+patreon:
+  icon: icons/patreon
+  class: patreon
+paypal:
+  icon: icons/paypal
+  class: paypal
+peertube:
+  icon: icons-extended/peertube
+  class: peertube
+pinterest:
+  icon: icons/pinterest
+  class: pinterest
+pixelfed:
+  icon: icons-extended/pixelfed
+  class: pixelfed
+playstation:
+  icon: icons-extended/playstation
+  class: playstation
+google-play:
+  icon: icons/google-play
+  class: playstore
+product-hunt:
+  icon: icons/product-hunt
+  class: product-hunt
+qobuz:
+  icon: icons-extended/qobuz
+  class: qobuz
+qq:
+  icon: icons-extended/qq
+  class: qq
+ravelry:
+  icon: icons-extended/ravelry
+  class: ravelry
+read-cv:
+  icon: icons/read-cv
+  class: read-cv
+redbubble:
+  icon: icons-extended/redbubble
+  class: redbubble
+reddit:
+  icon: icons/reddit
+  class: reddit
+researchgate:
+  icon: icons-extended/researchgate
+  class: researchgate
+revolut:
+  icon: icons-extended/revolut
+  class: revolut
+roll20:
+  icon: icons-extended/roll20
+  class: roll20
+shop:
+  icon: icons/shop
+  class: shop
+signal:
+  icon: icons/signal
+  class: signal
+skoob:
+  icon: icons-extended/skoob
+  class: skoob
+slack:
+  icon: icons/slack
+  class: slack
+snapchat:
+  icon: icons/snapchat
+  class: snapchat
+soundcloud:
+  icon: icons/soundcloud
+  class: soundcloud
+spacehey:
+  icon: icons-extended/spacehey
+  class: spacehey
+spotify-alt:
+  icon: icons/spotify-alt
+  class: spotify-alt
+spotify:
+  icon: icons/spotify
+  class: spotify
+square:
+  icon: icons/square
+  class: square
+stack-overflow:
+  icon: icons/stack-overflow
+  class: stack-overflow
+steam:
+  icon: icons/steam
+  class: steam
+strava:
+  icon: icons/strava
+  class: strava
+substack:
+  icon: icons/substack
+  class: substack
+telegram:
+  icon: icons/telegram
+  class: telegram
+threads:
+  icon: icons/threads
+  class: threads
+threema:
+  icon: icons/threema
+  class: threema
+tidal:
+  icon: icons-extended/tidal
+  class: tidal
+tiktok:
+  icon: icons/tiktok
+  class: tiktok
+trakt:
+  icon: icons-extended/trakt
+  class: trakt
+trello:
+  icon: icons/trello
+  class: trello
+tumblr:
+  icon: icons/tumblr
+  class: tumb
+twitch:
+  icon: icons/twitch
+  class: twitch
+unsplash:
+  icon: icons/unsplash
+  class: unsplash
+untappd:
+  icon: icons-extended/untappd
+  class: untappd
+upwork:
+  icon: icons-extended/upwork
+  class: upwork
+venmo:
+  icon: icons/venmo
+  class: venmo
+vero:
+  icon: icons-extended/vero
+  class: vero
+vimeo:
+  icon: icons/vimeo
+  class: vimeo
+vrchat:
+  icon: icons-extended/vrchat
+  class: vrchat
+vsco:
+  icon: icons/vsco
+  class: vsco
+whatsapp:
+  icon: icons/whatsapp
+  class: whatsapp
+wip:
+  icon: icons-extended/wip
+  class: wip
+wordpress:
+  icon: icons/wordpress
+  class: wordpress
+writeas:
+  icon: icons-extended/writeas
+  class: writeas
+writefreely:
+  icon: icons-extended/writefreely
+  class: writefreely
+x:
+  icon: icons/x
+  class: x
+xbox:
+  icon: icons-extended/xbox
+  class: xbox
+xing:
+  icon: icons-extended/xing
+  class: xing
+youtube-music:
+  icon: icons/youtube-music
+  class: yt
+youtube:
+  icon: icons/youtube
+  class: yt
+zoom:
+  icon: icons/zoom
+  class: zoom
+  alt: Zoom Logo

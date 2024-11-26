@@ -1,0 +1,8 @@
+- type: generic-blog
+  title: Clobbered By hugo.toml
+  alt: Even though these are defined here, hugo.toml overrides all links here
+  link: https://example.com
+- type: github
+  title: GitHub
+  alt: Theme's Github Link
+  link: https://github.com/spslater/hugo-littlelink

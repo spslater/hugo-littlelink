@@ -1,0 +1,21 @@
+{{ $ll := .Site.Data.defaults }}
+{{ $opts := .Site.Data.littlelink }}
+{{ with index .Site.Params "littlelink" "links" }}
+  {{ $opts = . }}
+{{ end }}
+
+{{ range $opts }}
+  {{ $info := index $ll .type }}
+  <a class="button button-{{ index $info "class" }}"
+    href="{{ with .link }}{{ . }}{{ else }}#{{ end }}"
+    target="_blank"
+    rel="noopener"
+    role="button"
+  >
+  <img class="icon"
+    aria-hidden="true"
+    src="images/{{ index $info "icon" }}.svg"
+    alt="{{ with .alt }}{{ . }}{{ end}}"
+  />{{ .title }}
+  </a><br>
+{{ end }}

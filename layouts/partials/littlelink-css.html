@@ -1,0 +1,43 @@
+{{ define "partials/littlelink-css-partial" }}
+  {{- if eq hugo.Environment "development" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{- else }}
+    {{- with . | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+    {{- end }}
+  {{- end }}
+{{ end }}
+
+{{- with resources.Get "css/normalize.css" }}
+  {{ partial "littlelink-css-partial" . }}
+{{- end }}
+
+{{ $themeStyle  := "auto" }}
+{{ with index .Site.Params.littlelink.themeStyle }}
+  {{ $themeStyle = . }}
+{{ end }}
+{{ with .Params.littlelink.themeStyle }}
+  {{ $themeStyle = . }}
+{{ end }}
+
+{{ if eq $themeStyle "dark" }}
+  {{- with resources.Get "css/skeleton-dark.css" }}
+    {{ partial "littlelink-css-partial" . }}
+  {{- end }}
+{{ else if eq $themeStyle "light" }}
+  {{- with resources.Get "css/skeleton-light.css" }}
+    {{ partial "littlelink-css-partial" . }}
+  {{- end }}
+{{ else }}
+  {{- with resources.Get "css/skeleton-auto.css" }}
+    {{ partial "littlelink-css-partial" . }}
+  {{- end }}
+{{ end }}
+
+{{- with resources.Get "css/brands.css" }}
+  {{ partial "littlelink-css-partial" . }}
+{{- end }}
+
+{{- with resources.Get "css/brands-extended.css" }}
+  {{ partial "littlelink-css-partial" . }}
+{{- end }}
