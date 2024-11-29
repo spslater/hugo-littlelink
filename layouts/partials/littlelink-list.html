@@ -12,9 +12,10 @@
     rel="noopener"
     role="button"
   >
+  {{ $img := printf "images/%s.svg" (index $info "icon") }}
   <img class="icon"
     aria-hidden="true"
-    src="images/{{ index $info "icon" }}.svg"
+    src="{{ $img | absURL }}"
     alt="{{ with .alt }}{{ . }}{{ end}}"
   />{{ .title }}
   </a><br>
